@@ -26,9 +26,9 @@ I will explore different hyperparameters with the LightGBM model.
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|default vals|defaults|1.38223||
+|initial|default vals|default vals|default vals|1.38223|
 |add_features|default vals|default vals|default vals|0.55187|
-|hpo||'GBM': [{'extra_trees': True, 'ag_args': {'name_suffix': 'XT'}}, {}, 'GBMLarge',]|'RF': [{'criterion': 'squared_error', 'ag_args': {'name_suffix': 'MSE', 'problem_types': ['regression']}}|0.54004|
+|hpo|'GBM': [{'extra_trees': True, 'ag_args': {'name_suffix': 'XT'}}, {}, 'GBMLarge',]|'RF': [{'criterion': 'squared_error', 'ag_args': {'name_suffix': 'MSE', 'problem_types': ['regression']}}|default vals|0.54004|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
